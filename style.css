@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css?family=Nova+Mono');
+
+body {
+  background-image: url('https://s3.envato.com/files/103652308/Old_Wood_Floor_2.jpg');
+}
+
+.container {
+  width: 400px;
+  margin: auto;
+}
+
+.wrapper {
+  background: #2f2f2f;
+  margin: auto;
+  margin-top: 150px;
+  width: 336px;
+  height: 336px;
+  border-radius: 50%;
+  box-shadow: 10px 10px 30px 0px rgba(0, 0, 0, 0.5);
+}
+
+.quarter {
+  height: 150px;
+  width: 150px;
+  border: 6px solid #2f2f2f;
+}
+
+#top-left, #bottom-left {
+  float: left;
+  border-left-width: 12px;
+}
+
+#top-right, #bottom-right {
+  float: right;
+  border-right-width: 12px;
+}
+
+#top-left {
+  border-top-left-radius: 300px;
+  background: rgba(255, 50, 50, 0.8);
+  border-top-width: 12px;
+  box-shadow: inset 10px 10px 50px 0px rgb(100, 50, 50);
+}
+
+#top-right {
+  border-top-right-radius: 300px;
+  background: rgba(50, 255, 50, 0.8);
+  border-top-width: 12px;
+  box-shadow: inset -10px 10px 50px 0px rgb(50, 100, 50);
+}
+
+#bottom-left {
+  border-bottom-left-radius: 300px;
+  background: rgba(50, 50, 255, 0.8);
+  border-bottom-width: 12px;
+  box-shadow: inset 10px -10px 50px 0px rgb(50, 50, 100);
+}
+
+#bottom-right {
+  border-bottom-right-radius: 300px;
+  background: rgba(255, 255, 50, 0.8);
+  border-bottom-width: 12px;
+  box-shadow: inset -10px -10px 50px 0px rgb(100, 100, 50);
+}
+
+.inner-circle {
+  margin: auto;
+  width: 90px;
+  height: 90px;
+  border: 12px solid #2f2f2f;
+  background: #c2c2c2;
+  border-radius: 50%;
+  z-index: 3;
+  position: relative;
+  top: -225px;
+}
+
+.inner-circle #step-counter {
+  margin: auto;
+  margin-top: 12px;
+  background: #2f2f2f;
+  width: 50px;
+  height: 35px;
+  border: 2px groove black;
+  font-family: 'Nova Mono', monospace;
+  font-size: 30px;
+  color: coral;
+  text-shadow: 0 0 5px red;
+  line-height: 35px;
+  text-align: center;
+}
+
+.btn {
+  text-align: center;
+  vertical-align: middle;
+  line-height: 15px;
+  margin: 0 2.5px;
+  width: 15px;
+  height: 15px;
+  border: 1px solid #2f2f2f;
+  border-radius: 50%;
+  box-shadow: 0 1px 0 #2f2f2f;
+  background: rgba(255, 255, 50, 0.6);
+  display: inline-block;
+  position: relative;
+  top: 10px;
+  left: 20px;
+}
+
+.btn .fa {
+  color: rgb(100, 100, 50);
+  font-size: 10px;
+  position: relative;
+  left: 1px;
+  bottom: 1px;
+}
+
+.active {
+  background: coral;
+  box-shadow: 0 0 5px red;
+}
